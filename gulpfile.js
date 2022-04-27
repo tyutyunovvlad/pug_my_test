@@ -30,9 +30,9 @@ function js() {
 
 function html() {
     return gulp.src('src/pug/pages/*.html')
-    .pipe(pg({
-        pretty: true
-    })) 
+    // .pipe(html({
+    //     pretty: true
+    // })) 
     .pipe(gulp.dest('build'))
 }
 
